@@ -1,6 +1,7 @@
 import createTestServer from 'create-test-server';
 import request from '../../src/index';
 
+// test
 const writeData = (data, res) => {
   res.setHeader('access-control-allow-origin', '*');
   res.send(data);
